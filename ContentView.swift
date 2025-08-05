@@ -1,10 +1,10 @@
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        NavigationView {
-            AppCoverView()
-                .navigationBarHidden(true)
+@main
+struct Divine_mind_1_2App: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
         }
     }
 }
